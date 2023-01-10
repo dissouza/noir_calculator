@@ -1,0 +1,25 @@
+body{
+	background: #2b2b2b;
+	display: flex;
+	justify-content: center;
+}
+
+
+.block{	
+	width: 400px;
+	height: 550px;
+	background: black;
+	box-shadow: 10px 10px #5e5e5e;
+
+}
+
+.result{
+	justify-content: center;
+	align-content: center;
+	display: flex;
+	flex-direction: column;
+	width: 85%;
+	height: 100px;
+	margin: 30px;
+	background: #5e5e5e;
+}
