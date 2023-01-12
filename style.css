@@ -1,15 +1,11 @@
-viewport {
-  max-zoom: 200%;
+@media only screen and (max-width: 425px) {
+  body {display:none;}
 }
 
 @font-face {
   font-family: 'Rockwell';
   src: url('rockwell.ttf') format('truetype');
 }
-
-
-
-/* Inicio formatação para desktop */
 
 body{
 	background: #2b2b2b;
@@ -38,7 +34,8 @@ main.block{
 }
 
 .result{		
-	align-content: center;	
+	align-content: center;
+	justify-content: right;	
 	display: grid;
 	width: 88%;
 	padding: 0% 6% ;
@@ -63,11 +60,15 @@ main.block{
 	background: #363636;
 	width: 18%;	
 	color: white;	
-	font-family: Rockwell;
+	font-family: arial;
 	padding: 0;
 	border: 0px;
 	font-size: 2vw;
 
+}
+
+.operators button:hover{
+	background: #5e5e5e;
 }
 
 .numbers{
@@ -94,9 +95,10 @@ button .equal{
 	font-family: Rockwell;
 }
 
-/* Fim da formatação para desktop */
+.numbers .equal{
+	background: #363636;
+}
 
-/* Inicio da formatação para mobile */
-
-
-/* Fim da formatação para mobile */
+.numbers button:hover{
+	background: #5e5e5e;
+}
