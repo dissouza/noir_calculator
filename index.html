@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="height=device-height, initial-scale=1.0">
 <link rel="stylesheet" href="style.css" />
+<link rel="javascript" href="script.js" />
 
 <head>
 	<title>Calculadora Noir</title>	
 </head>
-<body>
+
+<body>	
 	<main class="block">
 		<section class="content">
-			<section class="result" align="center">
+			<section class="result" align="right">
 				<!-- Onde será exibido o resultado -->
 				1234567890,0
 				<script type="">
 					
 				</script>
 			</section>
-			<section class="operators"><!-- Operadores: Adição, Subtração, Multiplicação, Divisão -->
+			<section class="operators" style="font-family: arial"><!-- Operadores: Adição, Subtração, Multiplicação, Divisão -->
 				<button class="adicao">+</button>
 				<button class="subtracao">-</button>
 				<button class="multiplicacao">x</button>
 				<button class="divisao">÷</button>
+				<button class="clear">c</button>
 			</section>
 			<section class="numbers"><!-- Bloco dos números, e o botão de igual-->
 				<button class="">1</button>
@@ -34,7 +38,8 @@
 				<button class="">8</button>
 				<button class="">9</button>
 				<button class="">0</button>
-				<button class="">=</button>
+				<button class="">.</button>
+				<button class="" style="background: #363636">=</button>
 
 			</section>
 		</section>
