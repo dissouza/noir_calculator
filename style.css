@@ -1,6 +1,6 @@
-@media only screen and (max-width: 425px) {
-  body {display:none;}
-}
+/* -------- Desktop ---------------- */
+@media only screen and (min-width: 1024px) {
+  main.block{display:flex;}
 
 @font-face {
   font-family: 'Rockwell';
@@ -103,3 +103,317 @@ button .equal{
 .numbers button:hover{
 	background: #5e5e5e;
 }
+
+}
+
+/* -------- Laptop entre 1000 e 1024px ---------------- */
+@media only screen and (min-width: 1000px) and (max-width: 1024px) {
+  main.block{display:flex;}
+
+@font-face {
+  font-family: 'Rockwell';
+  src: url('rockwell.ttf') format('truetype');
+}
+
+body{
+	background: #2b2b2b;
+	display: grid;
+	width: 99vw;
+	height: 99vh;
+	justify-content: center;
+	align-content: center;	
+}
+
+
+main.block{	
+	width: 26vw;
+	background: black;
+	height: 58vh;
+	box-shadow: 10px 10px #5e5e5e;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+.content{
+	width: 90%;	
+	height: 92%;	
+	padding: 5%;
+}
+
+.result{		
+	align-content: center;
+	justify-content: right;	
+	display: grid;
+	width: 88%;
+	padding: 0% 6% ;
+	height: 20%;	
+	background: #5e5e5e;
+	font-family: Rockwell;
+	font-size: 2vw;
+	color: #bdbdbd;
+	margin-bottom: 5%;
+}
+
+.operators{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 15%;
+	margin-bottom: 5%;	
+}
+
+.operators button{
+	background: #363636;
+	width: 18%;	
+	color: white;	
+	font-family: arial;
+	padding: 0;
+	border: 0px;
+	font-size: 2vw;
+
+}
+
+.operators button:hover{
+	background: #5e5e5e;
+}
+
+.numbers{
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 32% 32% 32%;	
+	justify-content: space-between;	
+	font-size: 2vw;
+	width: 100%;	
+	height: 58%;
+}
+button .equal{	
+	background: #363636;
+}
+
+.numbers button{
+	background: #4b4b4b;
+	width: 100%;
+	height: 90%;	
+	border: 0px;	
+	color: white;
+	padding: 0;
+	font-size: 2vw;	
+	font-family: Rockwell;
+}
+
+.numbers .equal{
+	background: #363636;
+}
+
+.numbers button:hover{
+	background: #5e5e5e;
+}
+
+}
+
+
+/* -------- Mobile ---------------- */
+@media only screen and (max-width: 425px) {
+  main.block{display:block;}
+
+body{
+	background: #2b2b2b;
+	display: grid;
+	width: 99vw;
+	height: 99vh;
+	justify-content: center;
+	align-content: center;	
+}
+
+main.block{	
+	width: 92vw;
+	background: black;
+	height: 70vh;
+	box-shadow: 10px 10px #5e5e5e;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+.content{
+	width: 90%;	
+	height: 92%;	
+	padding: 5%;
+}
+
+.result{		
+	align-content: center;
+	justify-content: right;	
+	display: grid;
+	width: 88%;
+	padding: 0% 6% ;
+	height: 20%;	
+	background: #5e5e5e;
+	font-family: Rockwell;
+	font-size: 8vw;
+	color: #bdbdbd;
+	margin-bottom: 5%;
+}
+
+.operators{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 15%;
+	margin-bottom: 5%;	
+}
+
+.operators button{
+	background: #363636;
+	width: 18%;	
+	color: white;	
+	font-family: arial;
+	padding: 0;
+	border: 0px;
+	font-size: 8vw;
+
+}
+
+.operators button:hover{
+	background: #5e5e5e;
+}
+
+.numbers{
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 32% 32% 32%;	
+	justify-content: space-between;	
+	font-size: 8vw;
+	width: 100%;	
+	height: 58%;
+}
+button .equal{	
+	background: #363636;
+}
+
+.numbers button{
+	background: #4b4b4b;
+	width: 100%;
+	height: 90%;	
+	border: 0px;	
+	color: white;
+	padding: 0;
+	font-size: 8vw;	
+	font-family: Rockwell;
+}
+
+.numbers .equal{
+	background: #363636;
+}
+
+.numbers button:hover{
+	background: #5e5e5e;
+}
+}
+
+/* -------- Tablet ---------------- */
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+  main.block{display:flex;}
+
+body{
+	background: #2b2b2b;
+	display: grid;
+	width: 99vw;
+	height: 99vh;
+	justify-content: center;
+	align-content: center;	
+}
+
+main.block{	
+	width: 70vw;
+	background: black;
+	height: 95vh;
+	box-shadow: 10px 10px #5e5e5e;
+	justify-content: center;
+	align-content: center;
+	
+}
+
+.content{
+	width: 90%;	
+	height: 92%;	
+	padding: 5%;
+}
+
+.result{		
+	align-content: center;
+	justify-content: right;	
+	display: grid;
+	width: 88%;
+	padding: 0% 6% ;
+	height: 20%;	
+	background: #5e5e5e;
+	font-family: Rockwell;
+	font-size: 5vw;
+	color: #bdbdbd;
+	margin-bottom: 5%;
+}
+
+.operators{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+	height: 15%;
+	margin-bottom: 5%;	
+}
+
+.operators button{
+	background: #363636;
+	width: 18%;	
+	color: white;	
+	font-family: arial;
+	padding: 0;
+	border: 0px;
+	font-size: 6vw;
+
+}
+
+.operators button:hover{
+	background: #5e5e5e;
+}
+
+.numbers{
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 32% 32% 32%;	
+	justify-content: space-between;	
+	font-size: 6vw;
+	width: 100%;	
+	height: 58%;
+}
+button .equal{	
+	background: #363636;
+}
+
+.numbers button{
+	background: #4b4b4b;
+	width: 100%;
+	height: 90%;	
+	border: 0px;	
+	color: white;
+	padding: 0;
+	font-size: 6vw;	
+	font-family: Rockwell;
+}
+
+.numbers .equal{
+	background: #363636;
+}
+
+.numbers button:hover{
+	background: #5e5e5e;
+}
+}
+
